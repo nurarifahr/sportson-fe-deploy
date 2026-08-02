@@ -71,7 +71,7 @@ const TransactionTable = ({onViewDetails}:TTransactionTableProps) => {
                         </td>
 
                         <td className="px-6 py-7.5 flex items-center gap-3 text-gray-600">
-                            <button onClick={onViewDetails} className="flex item-center gap-2 cursor-pointer hover:bg-gray-100 w-fit py-1 px-1 rounded-md">
+                            <button onClick={onViewDetails} className="flex items-center gap-2 cursor-pointer hover:bg-gray-100 w-fit py-1 px-1 rounded-md">
                                 <FiEye size={18}/> View Details
                             </button>
                         </td>
